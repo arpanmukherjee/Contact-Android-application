@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/contactListFragment"
+        android:name="com.example.arpn.android_contacts.ContactListFragment_A2_MT17007"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <fragment
+        android:id="@+id/contactDetailsFragment"
+        android:name="com.example.arpn.android_contacts.ContactDetailsFragment_A2_MT17007"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/contactListFragment"
+        android:layout_toRightOf="@+id/contactListFragment"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
